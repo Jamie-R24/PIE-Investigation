@@ -49,7 +49,7 @@ fgets(buffer, 64, stdin);
 printf(buffer);
 ```
 
-The input from the user is unchecked and is simplt printed through `printf()`. We can use this format string vulnerability to leak some information from the stack. 
+The input from the user is unchecked and is simply printed through `printf()`. We can use this format string vulnerability to leak some information from the stack. 
 
 <img width="3780" height="331" alt="image" src="https://github.com/user-attachments/assets/a166766b-b436-4e77-a1a9-28b44219f3f4" />
 
